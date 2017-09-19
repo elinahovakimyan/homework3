@@ -30,6 +30,12 @@ const warning = function(name) {
 	alert("Hey, " + name + " be attentive, it's dangerous");
 }
 
+//A better example of the above mentioned requirements
+const coloring = function(colorName) {
+	document.body.style.backgroundColor = colorName;
+}
+
+
 
 // -A function called fullName that takes as argument first name and last name and returns the full name of the person 
 const fullName = function(firstName, lastName) {
